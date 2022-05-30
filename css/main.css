@@ -1,0 +1,61 @@
+/* Reset default styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 62.5%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Gobal varaibles */
+
+:root {
+    /* Palette colors */
+    --primary-color: #47cfac;
+
+    /* Sizes font */
+    --lg-x: 30rem;
+    --lg: 1.6rem;
+    --md: 1.4rem;
+    --sm: 1.2rem;
+}
+
+/* Section header */
+
+header {
+    width: 100%;
+    height: 140px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    font-size: var(--sm);
+}
+
+header .header-icons-container {
+    width: 100%;
+    height: 50px;
+    display: grid;
+    background-color: var(--primary-color);
+}
+
+.header-icons-container .icons {
+    width: 300px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-items: end;
+    justify-content: space-between;
+    justify-self: end;
+    margin-right: 50px;
+}
+
+.icons span {
+    color: black;
+}
