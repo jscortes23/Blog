@@ -59,3 +59,31 @@ header .header-icons-container {
 .icons span {
     color: black;
 }
+
+/* Section header - 2 */
+
+nav {
+    height: 90px;
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+}
+
+nav .nav-logo-container {
+    margin-left: 50px;
+}
+
+.nav-logo-container img {
+    width: 220px;
+    margin-top: 10px;
+}
+
+nav .profile-link {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 50px;
+}
+
+.profile-link a {
+    border-bottom: 1px solid #000;
+}
